@@ -1,0 +1,40 @@
+body{
+  background-color: lavender;
+}
+
+.todo-form {
+  display: flex;
+  align-items: center;
+  padding-left: 300px;
+}
+
+.todo-btn {
+  background-color: blueviolet;
+  color: #eee;
+
+}
+
+.todo-btn:hover {
+  color: #eee;
+}
+
+.todo-btn:focus {
+  color: #eee;
+}
+
+.js-checked {
+  height: 28px;
+  width: 28px;
+
+}
+.js-checked:hover {
+  cursor: pointer;  
+  border-radius: 20px;
+}
+
+.formm {
+  max-width: 650px;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 1px 1px 15px 1px #eee;
+}
